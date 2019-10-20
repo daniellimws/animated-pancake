@@ -1,0 +1,41 @@
+#board {
+    margin-left: 24px;
+    margin-right: 18px;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: absolute;
+    left: 0%;
+    right: 45%;
+    top: 5%;
+    bottom: 5%;
+    border: 0.1px solid black;
+}
+
+#board textarea {
+    padding: 6px;
+}
+
+#output {
+    position: absolute;
+    left: 55%;
+    right: 5%;
+    top: 5%;
+    bottom: 5%;
+}
+
+#output-text {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.header-row textarea {
+    background: #e8f0fa;
+}
+
+textarea {
+    resize: none;
+}
