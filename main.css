@@ -28,7 +28,7 @@
     height: 100%;
     padding: 16px;
     font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-    overflow-x: scroll;
+    overflow-x: auto;
     white-space: nowrap;
 }
 
